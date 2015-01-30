@@ -52,7 +52,7 @@ public class AccountController {
 				System.out.println(accountServiceTwo.verify(username, password));*/
 		} catch (Exception e) {
 			e.printStackTrace();
-		}
+		}  
 		//new ModelAndView("accountNew") 如果方法参数中没有modelMap，则必须放到ModelAndView中。
         return  new ModelAndView("accountNew",modelMap); 
 	}
