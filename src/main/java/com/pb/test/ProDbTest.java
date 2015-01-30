@@ -45,6 +45,7 @@ public class ProDbTest {
 		  map.put("projectDirectory", projectDirectory);
 		  
 		  System.out.println(map.get("mirrors"));
+		  System.out.println("主分支master提交代码");
 		  
 		  return new ModelAndView("/member/set/showDb", map);
 	}
