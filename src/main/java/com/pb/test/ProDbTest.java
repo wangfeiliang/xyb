@@ -46,6 +46,9 @@ public class ProDbTest {
 		  
 		  System.out.println(map.get("mirrors"));
 		  System.out.println("这是develop分支新增加的");
+		  System.out.println("这是release分支新增加的");
+		  
+		  
 		  
 		  return new ModelAndView("/member/set/showDb", map);
 	}
