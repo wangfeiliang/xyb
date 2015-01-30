@@ -48,6 +48,9 @@ public class ProDbTest {
 		  System.out.println("主分支master提交代码");
 		  System.out.println("这是develop分支新增加的");
 
+		  System.out.println("这是app分支新增加的(在develop分支的基础上)");
+
+
 		  
 		  return new ModelAndView("/member/set/showDb", map);
 	}
