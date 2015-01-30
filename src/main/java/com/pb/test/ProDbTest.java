@@ -44,7 +44,7 @@ public class ProDbTest {
 		  map.put("mirrors", mirrors);
 		  map.put("projectDirectory", projectDirectory);
 		  
-		  
+		  System.out.println(map.get("mirrors"));
 		  
 		  return new ModelAndView("/member/set/showDb", map);
 	}
