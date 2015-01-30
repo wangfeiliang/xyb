@@ -46,6 +46,8 @@ public class ProDbTest {
 		  
 		  System.out.println(map.get("mirrors"));
 		  System.out.println("主分支master提交代码");
+		  System.out.println("这是develop分支新增加的");
+
 		  
 		  return new ModelAndView("/member/set/showDb", map);
 	}
