@@ -43,7 +43,7 @@ public class AccountController {
 		System.out.println(request.getParameter("usname"));
 		System.out.println("uname=" + uname + "  pword=" + pword);
 	   Map<String,Object> modelMap2=new HashMap<String,Object>();
-		modelMap.put("msg", uname);
+		modelMap.put("msg", uname);   
 		try {
 				/*String username = ServletRequestUtils.getRequiredStringParameter(
 						request, "username");
