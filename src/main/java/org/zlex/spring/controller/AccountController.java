@@ -43,7 +43,7 @@ public class AccountController {
 		System.out.println(request.getParameter("usname"));
 		System.out.println("uname=" + uname + "  pword=" + pword);
 	   Map<String,Object> modelMap2=new HashMap<String,Object>();
-		modelMap.put("msg", uname);
+		modelMap.put("msg", uname);   
 		try {
 				/*String username = ServletRequestUtils.getRequiredStringParameter(
 						request, "username");
@@ -52,7 +52,7 @@ public class AccountController {
 				System.out.println(accountServiceTwo.verify(username, password));*/
 		} catch (Exception e) {
 			e.printStackTrace();
-		}
+		}  
 		//new ModelAndView("accountNew") 如果方法参数中没有modelMap，则必须放到ModelAndView中。
         return  new ModelAndView("accountNew",modelMap); 
 	}
