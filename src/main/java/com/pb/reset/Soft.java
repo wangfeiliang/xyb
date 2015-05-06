@@ -11,6 +11,7 @@ public class Soft {
               System.out.println("Soft");
               
               System.out.println("Soft");
+              System.out.println("Soft release分支");
 	}
 
 }
