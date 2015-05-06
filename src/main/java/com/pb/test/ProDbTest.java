@@ -48,7 +48,7 @@ public class ProDbTest {
 		  System.out.println("这是develop分支新增加的");
 		  System.out.println("这是release分支新增加的");
 		  
-		  
+		  System.out.println("这是release分支新增加的222");
 		  
 		  return new ModelAndView("/member/set/showDb", map);
 	}
