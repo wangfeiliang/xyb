@@ -10,7 +10,7 @@ public class Mixed {
 		// TODO Auto-generated method stub
              System.out.println("Mixed");
              
-             System.out.println("Mixed");System.out.println("Mixed");
+             System.out.println("Mixed");System.out.println("Mixed develop分支");
 	}
 
 }
