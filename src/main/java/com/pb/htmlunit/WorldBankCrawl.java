@@ -30,6 +30,11 @@ public class WorldBankCrawl {
 	        System.out.println(str);
 	        //关闭webclient
 	        webClient.closeAllWindows();
+	        
+	        
+	        
+	        
+	        System.out.println("测试 git re");
 		}
 
 }
